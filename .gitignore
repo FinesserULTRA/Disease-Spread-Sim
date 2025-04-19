@@ -36,3 +36,14 @@ tests/__pycache__/
 
 # Ignore Docker build artifacts
 *.tar
+
+# Keep empty folders
+!data/.gitkeep
+!notebooks/.gitkeep
+!report/.gitkeep
+!results/.gitkeep
+!results/figures/.gitkeep
+!results/logs/.gitkeep
+!results/metrics/.gitkeep
+!src/.gitkeep
+!tests/.gitkeep
