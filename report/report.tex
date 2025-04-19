@@ -1,0 +1,23 @@
+\documentclass{article}
+\usepackage{graphicx}
+\title{Simulating Infectious Disease Spread in a Social Network}
+\author{Your Name}
+\date{\today}
+\begin{document}
+\maketitle
+\section{Introduction}
+We model disease spread using SI and SIR on a synthetic social network of $N=5000$.
+\section{Methods}
+\subsection{Network Generation}
+We use Erdős–Rényi, Watts–Strogatz, and Barabási–Albert models (NetworkX).
+\subsection{Simulation}
+SI: infected remain infectious forever.\\
+SIR: infected recover with probability $r$ per time step.
+\section{Results}
+\includegraphics[width=0.8\linewidth]{../results/figures/network.png}
+\includegraphics[width=0.8\linewidth]{../results/figures/infection_curve_si.png}
+\section{Discussion}
+Assumptions: homogeneous mixing, no births/deaths.
+\section{Conclusion}
+Pipeline is modular and extensible.
+\end{document}

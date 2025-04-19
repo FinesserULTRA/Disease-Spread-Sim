@@ -1,0 +1,38 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Jupyter Notebook checkpoints
+notebooks/.ipynb_checkpoints/
+
+# Data outputs and generated files
+data/*.pkl
+results/figures/*.png
+results/logs/*.pkl
+results/logs/*.csv
+results/metrics/*.csv
+
+# LaTeX build files
+report/*.aux
+report/*.log
+report/*.pdf
+
+# Environment files
+.env
+.venv
+env/
+venv/
+*.env
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Test cache
+tests/__pycache__/
+*.pytest_cache/
+
+# Ignore Docker build artifacts
+*.tar
