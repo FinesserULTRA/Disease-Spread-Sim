@@ -82,7 +82,7 @@ python -m src.cli simulate --model SIR
 # Analyze results
 python -m src.cli analyze
 # Parameter sweep
-python -m src.cli sweep --param p_transmission --values 0.01 0.03 0.05
+python -m src.cli sweep --param p_transmission --values 0.01 --values 0.03 --values 0.05
 # Run tests
 pytest
 # Compile reports
